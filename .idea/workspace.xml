@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="097ad50f-68cc-46d4-a55d-3b90d35aaa5e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="ProjectId" id="1XfFJhWjMNnNBuI9ET7zhD4L9Rk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/themes/pizza" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\pizza\wp-content\themes\pizza\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\pizza\wp-content\themes\pizza" />
+      <recent name="C:\xampp\htdocs\pizza\wp-content\themes\pizza\js" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="097ad50f-68cc-46d4-a55d-3b90d35aaa5e" name="Default Changelist" comment="" />
+      <created>1581429172316</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581429172316</updated>
+      <workItem from="1581429177707" duration="4657000" />
+      <workItem from="1581435188088" duration="7270000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="436" y="98" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581438067497">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="436" y="98" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1581438067497" />
+    <state x="499" y="109" key="FileChooserDialogImpl" timestamp="1581429342341">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="109" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581429342341" />
+    <state x="560" y="319" key="NewPhpFileDialog" timestamp="1581430520528">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="560" y="319" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1581430520528" />
+    <state x="379" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1581429179455">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="379" y="194" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581429179455" />
+    <state x="375" y="71" width="834" height="682" key="find.popup" timestamp="1581440469518">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="375" y="71" width="834" height="682" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1581440469518" />
+    <state x="347" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1581437824820">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="347" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1581437824820" />
+  </component>
+</project>

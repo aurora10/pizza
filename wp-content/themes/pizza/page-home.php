@@ -24,7 +24,7 @@ get_header();
     <div id="header" class="header header-standard animated slideOutUpHeader">
         <div class="header-inside">
             <div class="logo">
-                <a href="" title=""><img class="logoImage" src="<?php echo get_template_directory_uri(); ?>/img/logo.png"><img class="logoImageRetina" src="<?php echo get_template_directory_uri(); ?>/img/logo-retina.png" alt="VITOS" /></a>
+                <a href="" title=""><img class="logoImage" src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="VITOS" /><img class="logoImageRetina" src="<?php echo get_template_directory_uri(); ?>/img/logo-retina.png" alt="VITOS" /></a>
                 <div class="clear"></div>
             </div>
             <div class="header-right">
@@ -62,7 +62,7 @@ get_header();
     <div class="header-sticky">
         <div class="header-inside">
             <div class="logo">
-                <a href="" title="VITOS"><img class="logoImage" src="<?php get_template_directory_uri(); ?>/img/logo.png" alt="VITOS" /><img class="logoImageRetina" src="<?php echo get_template_directory_uri(); ?>/img/logo-retina.png" alt="VITOS" /></a>
+                <a href="" title="VITOS"><img class="logoImage" src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="VITOS" /><img class="logoImageRetina" src="<?php echo get_template_directory_uri(); ?>/img/logo-retina.png" alt="VITOS" /></a>
                 <div class="clear"></div>
             </div>
             <div class="header-right">
@@ -166,148 +166,44 @@ get_header();
                             </div>
                         </div>
                         <div class="clear"></div>
+
+
+
                         <div class="section-content section-portfolio">
-                            <div class="menu-products">
-                                <div class="menu-portfolio">
-                                    <div class="menu-portfolio-thumb">
-                                        <div class="menu-portfolio-overlay"></div><img src="<?php echo get_template_directory_uri(); ?>/img/pizza-restaurant-6.jpg" width="450" height="350" alt="pizza-restaurant-6" />
+
+                            <?php if( have_rows('pizza') ) : ?>
+                                <div class="menu-products">
+
+                                    <?php while( have_rows('pizza') ): the_row(); ?>
+
+
+                                        <div class="menu-portfolio">
+                                        <div class="menu-portfolio-thumb">
+                                            <div class="menu-portfolio-overlay"></div><img src="<?php the_sub_field('image'); ?>" width="450" height="350" alt="pizza-restaurant-6" />
+                                        </div>
+                                        <div class="menu-portfolio-title"><?php the_sub_field('pizza-name'); ?></div>
+                                        <div class="menu-portfolio-description"><?php the_sub_field('ingredients'); ?></div>
+                                        <div class="portfolio-price-items">
+                                            <div class="portfolio-price-item">
+                                                <div class="portfolio-price-caption">Small</div>
+                                                <div class="portfolio-price-value">$<?php the_sub_field('small'); ?></div>
+                                            </div>
+                                            <div class="portfolio-price-item">
+                                                <div class="portfolio-price-caption">Medium</div>
+                                                <div class="portfolio-price-value">$<?php the_sub_field('medium'); ?></div>
+                                            </div>
+                                            <div class="portfolio-price-item">
+                                                <div class="portfolio-price-caption">Large</div>
+                                                <div class="portfolio-price-value">$<?php the_sub_field('large'); ?></div>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
                                     </div>
-                                    <div class="menu-portfolio-title">Hawaii</div>
-                                    <div class="menu-portfolio-description">Pineapple, mushrooms, black olives,
-                                        tomato sauce, oregano, garlic</div>
-                                    <div class="portfolio-price-items">
-                                        <div class="portfolio-price-item">
-                                            <div class="portfolio-price-caption">Small</div>
-                                            <div class="portfolio-price-value">$5.10</div>
-                                        </div>
-                                        <div class="portfolio-price-item">
-                                            <div class="portfolio-price-caption">Medium</div>
-                                            <div class="portfolio-price-value">$11.60</div>
-                                        </div>
-                                        <div class="portfolio-price-item">
-                                            <div class="portfolio-price-caption">Large</div>
-                                            <div class="portfolio-price-value">$18.40</div>
-                                        </div>
-                                        <div class="clear"></div>
-                                    </div>
-                                </div>
-                                <div class="menu-portfolio">
-                                    <div class="menu-portfolio-thumb">
-                                        <div class="menu-portfolio-overlay"></div><img src="<?php echo get_template_directory_uri(); ?>/img/pizza-restaurant-5.jpg" width="450" height="350" alt="pizza-restaurant-5" />
-                                    </div>
-                                    <div class="menu-portfolio-title">Neapolitan</div>
-                                    <div class="menu-portfolio-description">Tomato, oregano, garlic, extra virgin
-                                        olive oil, pepperoni, cheese, red onion</div>
-                                    <div class="portfolio-price-items">
-                                        <div class="portfolio-price-item">
-                                            <div class="portfolio-price-caption">Small</div>
-                                            <div class="portfolio-price-value">$5.30</div>
-                                        </div>
-                                        <div class="portfolio-price-item">
-                                            <div class="portfolio-price-caption">Medium</div>
-                                            <div class="portfolio-price-value">$11.30</div>
-                                        </div>
-                                        <div class="portfolio-price-item">
-                                            <div class="portfolio-price-caption">Large</div>
-                                            <div class="portfolio-price-value">16.40</div>
-                                        </div>
-                                        <div class="clear"></div>
-                                    </div>
-                                </div>
-                                <div class="menu-portfolio">
-                                    <div class="menu-portfolio-thumb">
-                                        <div class="menu-portfolio-overlay"></div><img src="<?php echo get_template_directory_uri(); ?>/img/pizza-restaurant-1.jpg" width="450" height="350" alt="pizza-restaurant-1" />
-                                    </div>
-                                    <div class="menu-portfolio-title">Margherita</div>
-                                    <div class="menu-portfolio-description">Pepperoni, cheese, black olives, tomatoe
-                                        sauce, mushrooms, meat, onion, salad</div>
-                                    <div class="portfolio-price-items">
-                                        <div class="portfolio-price-item">
-                                            <div class="portfolio-price-caption">Small</div>
-                                            <div class="portfolio-price-value">$4.50</div>
-                                        </div>
-                                        <div class="portfolio-price-item">
-                                            <div class="portfolio-price-caption">Medium</div>
-                                            <div class="portfolio-price-value">$10.20</div>
-                                        </div>
-                                        <div class="portfolio-price-item">
-                                            <div class="portfolio-price-caption">Large</div>
-                                            <div class="portfolio-price-value">$13.80</div>
-                                        </div>
-                                        <div class="clear"></div>
-                                    </div>
-                                </div>
-                                <div class="menu-portfolio">
-                                    <div class="menu-portfolio-thumb">
-                                        <div class="menu-portfolio-overlay"></div><img src="<?php echo get_template_directory_uri(); ?>/img/pizza-restaurant-4.jpg" width="450" height="350" alt="pizza-restaurant-4" />
-                                    </div>
-                                    <div class="menu-portfolio-title">Calzone</div>
-                                    <div class="menu-portfolio-description">Cup fresh ricotta, parmesan, chopped
-                                        basil, pepper, tomato sauce, fresh mozzarella</div>
-                                    <div class="portfolio-price-items">
-                                        <div class="portfolio-price-item">
-                                            <div class="portfolio-price-caption">Small</div>
-                                            <div class="portfolio-price-value">$3.90</div>
-                                        </div>
-                                        <div class="portfolio-price-item">
-                                            <div class="portfolio-price-caption">Medium</div>
-                                            <div class="portfolio-price-value">$7.10</div>
-                                        </div>
-                                        <div class="portfolio-price-item">
-                                            <div class="portfolio-price-caption">Large</div>
-                                            <div class="portfolio-price-value">$10.40</div>
-                                        </div>
-                                        <div class="clear"></div>
-                                    </div>
-                                </div>
-                                <div class="menu-portfolio">
-                                    <div class="menu-portfolio-thumb">
-                                        <div class="menu-portfolio-overlay"></div><img src="<?php echo get_template_directory_uri(); ?>/img/pizza-restaurant-3.jpg" width="450" height="350" alt="pizza-restaurant-3" />
-                                    </div>
-                                    <div class="menu-portfolio-title">Farmer</div>
-                                    <div class="menu-portfolio-description">Fresh mushrooms, fresh green bell
-                                        peppers, tomatoes, black olives, meat, sausages</div>
-                                    <div class="portfolio-price-items">
-                                        <div class="portfolio-price-item">
-                                            <div class="portfolio-price-caption">Small</div>
-                                            <div class="portfolio-price-value">$3.20</div>
-                                        </div>
-                                        <div class="portfolio-price-item">
-                                            <div class="portfolio-price-caption">Medium</div>
-                                            <div class="portfolio-price-value">$7.40</div>
-                                        </div>
-                                        <div class="portfolio-price-item">
-                                            <div class="portfolio-price-caption">Large</div>
-                                            <div class="portfolio-price-value">$11.80</div>
-                                        </div>
-                                        <div class="clear"></div>
-                                    </div>
-                                </div>
-                                <div class="menu-portfolio">
-                                    <div class="menu-portfolio-thumb">
-                                        <div class="menu-portfolio-overlay"></div><img src="<?php echo get_template_directory_uri(); ?>/img/pizza-restaurant-2.jpg" width="450" height="350" alt="pizza-restaurant-2" />
-                                    </div>
-                                    <div class="menu-portfolio-title">Diavolo</div>
-                                    <div class="menu-portfolio-description">Pepperoni, cheese, black olives, tomatoe
-                                        sauce, mushrooms, meat, onion, salad</div>
-                                    <div class="portfolio-price-items">
-                                        <div class="portfolio-price-item">
-                                            <div class="portfolio-price-caption">Small</div>
-                                            <div class="portfolio-price-value">$12.99</div>
-                                        </div>
-                                        <div class="portfolio-price-item">
-                                            <div class="portfolio-price-caption">Medium</div>
-                                            <div class="portfolio-price-value">$15.99</div>
-                                        </div>
-                                        <div class="portfolio-price-item">
-                                            <div class="portfolio-price-caption">Large</div>
-                                            <div class="portfolio-price-value">$18.99</div>
-                                        </div>
-                                        <div class="clear"></div>
-                                    </div>
-                                </div>
-                                <div class="clear"></div>
+
+                                    <?php endwhile; //section_container ?>
+<!--                                <div class="clear"></div>-->
                             </div>
+                            <?php endif;  //section_container ?>
                         </div>
                     </div>
                 </div>

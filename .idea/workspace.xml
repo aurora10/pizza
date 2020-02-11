@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="097ad50f-68cc-46d4-a55d-3b90d35aaa5e" name="Default Changelist" comment="" />
+    <list default="true" id="097ad50f-68cc-46d4-a55d-3b90d35aaa5e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/pizza/page-home.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/pizza/page-home.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +14,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XfFJhWjMNnNBuI9ET7zhD4L9Rk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -23,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/themes/pizza/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -46,7 +52,8 @@
       <option name="presentableId" value="Default" />
       <updated>1581429172316</updated>
       <workItem from="1581429177707" duration="4657000" />
-      <workItem from="1581435188088" duration="12472000" />
+      <workItem from="1581435188088" duration="12625000" />
+      <workItem from="1581455981665" duration="4346000" />
     </task>
     <servers />
   </component>
